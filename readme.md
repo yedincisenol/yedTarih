@@ -1,6 +1,9 @@
-Php’de sıkça tarih verileriyle uğraştığım(ız) için bi’kaç tane tarih fonksiyonum vardı. Hepsini bi’sınıfta toplayayım dedim ve ortaya bu sınıf çıktı
+yedTarih
+========
 
-Adını yedTarih koyduğum sınıfın iki temel özelliği var;
+Phpâ€™de sÄ±kÃ§a tarih verileriyle uÄŸraÅŸtÄ±ÄŸÄ±m(Ä±z) iÃ§in biâ€™kaÃ§ tane tarih fonksiyonum vardÄ±. Hepsini biâ€™sÄ±nÄ±fta toplayayÄ±m dedim ve ortaya bu sÄ±nÄ±f Ã§Ä±ktÄ±
 
-Tarih Döndürmek
+AdÄ±nÄ± yedTarih koyduÄŸum sÄ±nÄ±fÄ±n iki temel Ã¶zelliÄŸi var;
+
+Tarih DÃ¶ndÃ¼rmek
 Tarih Formatlamak
