@@ -8,11 +8,11 @@ Adını yedTarih koyduğum sınıfın iki temel özelliği var;
 Tarih Döndürmek <br/>
 Tarih Formatlamak <br />
 
+
+<h2>yedTarih tarih verisi alma</h2>
+
+<pre>
 require_once 'yedTarih.php';
-
-yedTarih tarih verisi alma
-========
-
 $tarih=new yedTarih();
 
 echo $tarih->ver('tarih'); #Formatsız tarih. Örn: 2010-12-29 19:38:41
@@ -26,12 +26,11 @@ echo $tarih->ver('gun'); #Gün. Örn: Pazartesi
 echo $tarih->ver('saat'); #Saat. Örn:15
 
 echo $tarih->ver('dakika'); #Dakika. Örn:23
-
-yedTarih tarih verisini formatlama
-
+</pre>
+<h2>yedTarih tarih verisini formatlama</h2>
+========
 require_once 'yedTarih.php';
 $tarih=new yedTarih();
-========
 $buTarih=$tarih->ver('tarih');
 echo $tarih->formatla($buTarih,'uzun'); #Örn: 20 Aralık 2010
 echo $tarih->formatla($buTarih,'ideal'); #Örn: 20 Aralık '10
