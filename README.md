@@ -13,8 +13,8 @@ Tarih Formatlamak <br />
 
 <pre>
 require_once 'yedTarih.php';
-$tarih=new yedTarih();
 
+$tarih=new yedTarih();
 echo $tarih->ver('tarih'); #Formatsız tarih. Örn: 2010-12-29 19:38:41
 echo $tarih->ver('yil'); #Yıl. Örn: 2010
 echo $tarih->ver('ay'); #Ay. Örn: Aralık
@@ -26,6 +26,7 @@ echo $tarih->ver('dakika'); #Dakika. Örn:23
 ========
 <pre>
 require_once 'yedTarih.php';
+
 $tarih=new yedTarih();
 $buTarih=$tarih->ver('tarih');
 echo $tarih->formatla($buTarih,'uzun'); #Örn: 20 Aralık 2010
