@@ -28,7 +28,7 @@ echo $tarih->ver('dakika'); #Dakika. Örn:23
 require_once 'yedTarih.php';
 
 $tarih=new yedTarih();
-$buTarih=$tarih->ver('tarih');
+$buTarih='2010-12-29 19:38:41' # Göndereceğiniz tarih verisi bu formatta olmalı
 echo $tarih->formatla($buTarih,'uzun'); #Örn: 20 Aralık 2010
 echo $tarih->formatla($buTarih,'ideal'); #Örn: 20 Aralık '10
 echo $tarih->formatla($buTarih,'kisa'); #Örn: 20.12.'10
